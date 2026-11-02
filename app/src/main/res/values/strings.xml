@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">红果跳广告</string>
+    <string name="acc_service_label">红果跳广告服务</string>
+    <string name="acc_service_desc">读取红果短剧界面文本以识别广告页，并在倒计时结束后自动模拟上滑跳过。完全离线运行，不上传任何数据。</string>
+    <string name="word_edit_title">关键词库</string>
+
+    <string name="master_switch">总开关（无障碍服务开启后生效）</string>
+    <string name="overlay_switch">“记为广告”悬浮球（仅红果前台显示）</string>
+
+    <string name="btn_accessibility">无障碍设置（去开启服务）</string>
+    <string name="btn_overlay_perm">授予悬浮窗权限</string>
+    <string name="btn_battery">电池优化白名单（保活）</string>
+    <string name="btn_test_swipe">测试上滑</string>
+    <string name="btn_copy_diag">复制诊断日志</string>
+    <string name="btn_clear_learn">清除学习记录</string>
+    <string name="btn_words">关键词库管理</string>
+
+    <string name="usage_hint">使用方法：\n1. 打开系统无障碍设置，启用「红果跳广告服务」；\n2. 打开本页总开关；\n3. 到红果短剧播放页，检测到广告会自动上滑跳过。\n\n悬浮球交互：单击＝测试上滑；长按＝把当前页面记为广告（学习特征并抑制自动滑动 12 秒，不会自动滑走）。</string>
+</resources>

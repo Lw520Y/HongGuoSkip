@@ -1,0 +1,32 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.hongguoskip'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.hongguoskip"
+        minSdk 26          // 对齐原版 minSdk 26 / targetSdk 34
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+// 无第三方依赖（原版工程同款约束：无网络权限、完全离线）
+dependencies {
+}

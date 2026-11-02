@@ -1,0 +1,4 @@
+// 根工程：仅声明 AGP 插件版本（无任何第三方依赖，对齐原版"零依赖"）
+plugins {
+    id 'com.android.application' version '8.5.2' apply false
+}
